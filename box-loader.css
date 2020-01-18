@@ -1,0 +1,44 @@
+.square{height:40px;width:40px;background-color: red;float: left;margin-left:10px;border-radius:10px;}
+body{background-color: #4A484B;}
+#box{margin-left:650px;margin-top:350px;}
+#one{position: relative;margin-top:-45px;animation-name:a;animation-duration:2s;animation-iteration-count: infinite;background-color: #FF7714;}
+#two{position: relative;animation-name: b;animation-duration:2s;animation-iteration-count: infinite;background-color: #FF7714;}
+#three{position: relative;animation-name: c;animation-duration:2s;animation-iteration-count: infinite;background-color: #FD5429;}
+#four{position: relative;animation-name: d;animation-duration:2s;animation-iteration-count: infinite;background-color: #FE3A3D;}
+#five{position: relative;animation-name: e;animation-duration:2s;animation-iteration-count: infinite;background-color: #FF1754;}
+@keyframes a{
+    0%{top:0px;}
+  8%{top:45px;}
+  100%{top:45px;}
+}
+@keyframes b{
+        0%{left: 0px;top:0px;}
+        8%{ top:45px;left:0px;background-color: #FF7714;}
+        16%{top:45px;left:50px;background-color: #FD5429;}
+        24%{top:0px;left:50px;}
+        80%{top:0px;left:50px;}
+        88%{background-color: #FD5429;left:50px;top:-45px;}
+        96%{background-color: #FF7714;left:0px;top:-45px;}
+        100%{left:0px;top:-45px;}}
+  @keyframes c{
+      16%{top:0px;}
+      24%{background-color: #FD5429;top:-45px;left:0px;}
+      32%{top:-45px;left:50px;background-color: #FE3A3D;}
+      40%{top:0px;left:50px;}
+      64%{top:0px;left:50px;}
+      72%{background-color: #FE3A3D;left:50px;top:45px;}
+      80%{background-color: #FD5429;top:45px;left:0px;}
+      88%{top:0px;left:0px;}
+      100%{top:0px;left:0px;}}
+  @keyframes d{
+      32%{top:0px;left:0px;}
+      40%{background-color: #FE3A3D;top:45px;left:0px;}
+      48%{top:45px;left:50px;background-color: #FF1754;}
+      56%{top:0px;left:50px;}
+      100%{top:0px;left:50px;background-color: #FF1754;}}
+  @keyframes e{
+      48%{top:0px;}
+      56%{background-color: #FF1754;top:-45px;left:0px;}
+     64%{background-color: #FE3A3D;top:-45px;left:-50px;}
+     72%{top:0px;left:-50px;}
+     100%{background-color: #FE3A3D;top:0px;left:-50px;}}
