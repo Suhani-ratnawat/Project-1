@@ -1,5 +1,5 @@
-.square{height:40px;width:40px;background-color: red;float: left;margin-left:10px;border-radius:10px;}
 body{background-color: #4A484B;}
+.square{height:40px;width:40px;background-color: red;float: left;margin-left:10px;border-radius:10px;}
 #box{margin-left:650px;margin-top:350px;}
 #one{position: relative;margin-top:-45px;animation-name:a;animation-duration:2s;animation-iteration-count: infinite;background-color: #FF7714;}
 #two{position: relative;animation-name: b;animation-duration:2s;animation-iteration-count: infinite;background-color: #FF7714;}
